@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrés David Criollo Rosero — Software Developer</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/dev3/styles.css' %}">
+</head>
+<body>
+
+<div class="portfolio">
+
+    <!-- ===== HERO ===== -->
+    <header class="hero">
+        <div class="hero__bg-shapes">
+            <span class="shape shape--1"></span>
+            <span class="shape shape--2"></span>
+            <span class="shape shape--3"></span>
+        </div>
+        <div class="hero__content">
+            <div class="hero__avatar">ADC</div>
+            <div class="hero__text">
+                <p class="hero__greeting">Hola, soy</p>
+                <h1 class="hero__name">Andrés David <span class="accent">Criollo Rosero</span></h1>
+                <p class="hero__role">Software Developer · Estudiante Ing. de Software — 5to Semestre</p>
+                <p class="hero__tagline">Combinando tecnología y creatividad para generar impacto real</p>
+                <div class="hero__links">
+                    <a href="https://github.com/andresc1108" target="_blank" class="btn btn--primary">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                        GitHub
+                    </a>
+                    <a href="mailto:criolloandres2003@gmail.com" class="btn btn--outline">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        Contacto
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="hero__scroll-hint">
+            <span>Scroll</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </header>
+
+    <!-- ===== MAIN ===== -->
+    <main class="main">
+        <div class="container">
+            <div class="grid">
+
+                <!-- COLUMNA IZQUIERDA -->
+                <aside class="sidebar">
+
+                    <div class="card card--about reveal">
+                        <div class="card__icon">🧑‍💻</div>
+                        <h2 class="card__title">Sobre mí</h2>
+                        <p>Soy técnico en asistencia y soporte de la información, apasionado por construir experiencias
+                           digitales que combinan <strong>tecnología y creatividad</strong>. Me desempeño con destreza
+                           en el área tecnológica, poseo disciplina y disfruto del trabajo en equipo. Mi enfoque está
+                           en crear soluciones digitales que generen un impacto real.</p>
+                    </div>
+
+                    <div class="card reveal">
+                        <h2 class="card__title">Contacto</h2>
+                        <ul class="contact-list">
+                            <li><span class="contact-icon">📍</span><span>Pasto, Colombia</span></li>
+                            <li><span class="contact-icon">📧</span><a href="mailto:criolloandres2003@gmail.com">criolloandres2003@gmail.com</a></li>
+                            <li><span class="contact-icon">📱</span><span>+57 314 590 0862</span></li>
+                            <li><span class="contact-icon">🐙</span><a href="https://github.com/andresc1108" target="_blank">github.com/andresc1108</a></li>
+                            <li><span class="contact-icon">💼</span><a href="https://linkedin.com/in/andres-david-criollo" target="_blank">Andrés David Criollo</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="card reveal">
+                        <h2 class="card__title">Stack Técnico</h2>
+                        <div class="skills">
+                            <div class="skill">
+                                <div class="skill__header"><span class="skill__name">HTML5 / CSS3</span><span class="skill__pct">92%</span></div>
+                                <div class="skill__bar"><div class="skill__fill" data-width="92"></div></div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill__header"><span class="skill__name">JavaScript</span><span class="skill__pct">82%</span></div>
+                                <div class="skill__bar"><div class="skill__fill" data-width="82"></div></div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill__header"><span class="skill__name">React</span><span class="skill__pct">78%</span></div>
+                                <div class="skill__bar"><div class="skill__fill" data-width="78"></div></div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill__header"><span class="skill__name">Node.js</span><span class="skill__pct">75%</span></div>
+                                <div class="skill__bar"><div class="skill__fill" data-width="75"></div></div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill__header"><span class="skill__name">Python</span><span class="skill__pct">70%</span></div>
+                                <div class="skill__bar"><div class="skill__fill" data-width="70"></div></div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill__header"><span class="skill__name">Figma / UI Design</span><span class="skill__pct">80%</span></div>
+                                <div class="skill__bar"><div class="skill__fill" data-width="80"></div></div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill__header"><span class="skill__name">MongoDB / SQL</span><span class="skill__pct">68%</span></div>
+                                <div class="skill__bar"><div class="skill__fill" data-width="68"></div></div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill__header"><span class="skill__name">Git / GitHub</span><span class="skill__pct">85%</span></div>
+                                <div class="skill__bar"><div class="skill__fill" data-width="85"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card reveal">
+                        <h2 class="card__title">Habilidades Blandas</h2>
+                        <div class="tags">
+                            <span class="tag">Trabajo en equipo</span>
+                            <span class="tag">Disciplina</span>
+                            <span class="tag">Aprendizaje continuo</span>
+                            <span class="tag">Resolución de problemas</span>
+                        </div>
+                    </div>
+
+                    <div class="card reveal">
+                        <h2 class="card__title">Servicios</h2>
+                        <div class="services">
+                            <div class="service-item"><span>⚛️</span><span>Desarrollo Web Frontend (React)</span></div>
+                            <div class="service-item"><span>🔌</span><span>Desarrollo Backend & APIs (Node.js, Python)</span></div>
+                            <div class="service-item"><span>🎨</span><span>Diseño UI/UX (Figma)</span></div>
+                            <div class="service-item"><span>🖥️</span><span>Soporte Técnico (Hardware y Software)</span></div>
+                            <div class="service-item"><span>💡</span><span>Consultoría de Software</span></div>
+                        </div>
+                    </div>
+
+                </aside>
+
+                <!-- COLUMNA DERECHA -->
+                <section class="content">
+
+                    <div class="card reveal">
+                        <h2 class="card__title section-icon">🎓 Formación Académica</h2>
+                        <div class="timeline">
+                            <div class="timeline__item">
+                                <div class="timeline__marker"></div>
+                                <div class="timeline__body">
+                                    <div class="timeline__head">
+                                        <h3>Ingeniería de Software (5to Semestre)</h3>
+                                        <span class="badge badge--active">En curso</span>
+                                    </div>
+                                    <p class="timeline__org">Universidad Cooperativa de Colombia</p>
+                                    <p class="timeline__period">2024 — Presente</p>
+                                    <p class="timeline__desc">Formación integral en diseño, desarrollo y arquitectura de software. Aplicación de metodologías ágiles y proyectos reales.</p>
+                                </div>
+                            </div>
+                            <div class="timeline__item">
+                                <div class="timeline__marker"></div>
+                                <div class="timeline__body">
+                                    <div class="timeline__head">
+                                        <h3>Técnico en Asistencia y Soporte de la Información</h3>
+                                        <span class="badge">Graduado</span>
+                                    </div>
+                                    <p class="timeline__org">Instituto INESUR</p>
+                                    <p class="timeline__period">2023 — 2024</p>
+                                    <p class="timeline__desc">Diagnóstico, mantenimiento y soporte de sistemas informáticos. Redes, hardware y software.</p>
+                                </div>
+                            </div>
+                            <div class="timeline__item">
+                                <div class="timeline__marker"></div>
+                                <div class="timeline__body">
+                                    <div class="timeline__head">
+                                        <h3>Bachiller Técnico</h3>
+                                        <span class="badge">Graduado</span>
+                                    </div>
+                                    <p class="timeline__org">Colegio Técnico Industrial — Pasto</p>
+                                    <p class="timeline__period">2011 — 2021</p>
+                                    <p class="timeline__desc">Formación técnica con énfasis en electrónica y sistemas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card reveal">
+                        <h2 class="card__title section-icon">⚙️ Tecnologías</h2>
+                        <div class="tech-grid">
+                            <div class="tech-item"><span class="tech-icon">🌐</span><span>HTML5</span></div>
+                            <div class="tech-item"><span class="tech-icon">🎨</span><span>CSS3</span></div>
+                            <div class="tech-item"><span class="tech-icon">🟡</span><span>JavaScript</span></div>
+                            <div class="tech-item"><span class="tech-icon">⚛️</span><span>React</span></div>
+                            <div class="tech-item"><span class="tech-icon">🎭</span><span>Figma</span></div>
+                            <div class="tech-item"><span class="tech-icon">🟢</span><span>Node.js</span></div>
+                            <div class="tech-item"><span class="tech-icon">🐍</span><span>Python</span></div>
+                            <div class="tech-item"><span class="tech-icon">☕</span><span>Java</span></div>
+                            <div class="tech-item"><span class="tech-icon">🍃</span><span>MongoDB</span></div>
+                            <div class="tech-item"><span class="tech-icon">🗄️</span><span>SQL</span></div>
+                            <div class="tech-item"><span class="tech-icon">🔀</span><span>Git</span></div>
+                            <div class="tech-item"><span class="tech-icon">📬</span><span>Postman</span></div>
+                        </div>
+                    </div>
+
+                    <div class="card reveal">
+                        <h2 class="card__title section-icon">🚀 Proyectos Destacados</h2>
+                        <div class="projects">
+                            <div class="project-card project-card--featured">
+                                <div class="project-card__header">
+                                    <div>
+                                        <span class="project-badge">Destacado</span>
+                                        <h3>EMOIA</h3>
+                                    </div>
+                                    <a href="https://github.com/andresc1108" target="_blank" class="project-link">Ver repo →</a>
+                                </div>
+                                <p>Plataforma web que analiza el comportamiento de los usuarios mediante patrones de
+                                   interacción para detectar posibles casos de ansiedad o depresión, facilitando una
+                                   intervención temprana.</p>
+                                <div class="project-card__tech">
+                                    <span class="tech-tag">React</span>
+                                    <span class="tech-tag">Node.js</span>
+                                    <span class="tech-tag">MongoDB</span>
+                                    <span class="tech-tag">Python</span>
+                                </div>
+                            </div>
+                            <div class="project-card project-card--featured">
+                                <div class="project-card__header">
+                                    <div>
+                                        <span class="project-badge">Destacado</span>
+                                        <h3>ANDES_SOUND</h3>
+                                    </div>
+                                    <a href="https://github.com/andresc1108" target="_blank" class="project-link">Ver repo →</a>
+                                </div>
+                                <p>Reproductor de música desarrollado con tecnologías web modernas que permite gestionar
+                                   y reproducir listas de reproducción con una interfaz intuitiva y responsiva.</p>
+                                <div class="project-card__tech">
+                                    <span class="tech-tag">HTML</span>
+                                    <span class="tech-tag">CSS</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                    <span class="tech-tag">React</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card reveal">
+                        <h2 class="card__title section-icon">💼 Experiencia</h2>
+                        <div class="timeline">
+                            <div class="timeline__item">
+                                <div class="timeline__marker"></div>
+                                <div class="timeline__body">
+                                    <div class="timeline__head">
+                                        <h3>Desarrollador de Software</h3>
+                                        <span class="badge badge--active">Actual</span>
+                                    </div>
+                                    <p class="timeline__org">Universidad Cooperativa de Colombia (Proyectos Académicos)</p>
+                                    <p class="timeline__period">2024 — Presente</p>
+                                    <p class="timeline__desc">Desarrollo de proyectos académicos aplicando metodologías ágiles y tecnologías modernas como React, Node.js y MongoDB. Participación activa en el diseño y ejecución de soluciones como EMOIA y ANDES_SOUND.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card reveal">
+                        <h2 class="card__title section-icon">📋 Datos Personales</h2>
+                        <div class="info-grid">
+                            <div class="info-item">
+                                <span class="info-label">Nombre completo</span>
+                                <span class="info-value">Andrés David Criollo Rosero</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Ubicación</span>
+                                <span class="info-value">Pasto, Colombia</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Universidad</span>
+                                <span class="info-value">Universidad Cooperativa de Colombia</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Semestre</span>
+                                <span class="info-value">5to Semestre · Ing. de Software</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Correo</span>
+                                <span class="info-value"><a href="mailto:criolloandres2003@gmail.com">criolloandres2003@gmail.com</a></span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Teléfono</span>
+                                <span class="info-value">+57 314 590 0862</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 Andrés David Criollo Rosero · Ingeniería de Software · Universidad Cooperativa de Colombia</p>
+    </footer>
+
+</div>
+
+<script src="{% static 'js/dev3/main.js' %}"></script>
+</body>
+</html>
