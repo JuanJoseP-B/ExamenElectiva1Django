@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan José Pérez Bravo — Backend Developer</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/dev1/styles.css' %}">
+</head>
+<body>
+
+<div class="portfolio">
+
+    <!-- ===== HERO ===== -->
+    <header class="hero">
+        <div class="hero__bg-shapes">
+            <span class="shape shape--1"></span>
+            <span class="shape shape--2"></span>
+            <span class="shape shape--3"></span>
+        </div>
+        <div class="hero__content">
+            <div class="hero__avatar" aria-label="Iniciales JJPB">JJPB</div>
+            <div class="hero__text">
+                <p class="hero__greeting">Hola, soy</p>
+                <h1 class="hero__name">Juan José <span class="accent">Pérez Bravo</span></h1>
+                <p class="hero__role">Backend Developer</p>
+                <p class="hero__tagline">Construyendo la lógica que mueve la web — Java · PHP · Python</p>
+                <div class="hero__links">
+                    <a href="https://github.com/JuanJoseP-B" target="_blank" class="btn btn--primary">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                        GitHub
+                    </a>
+                    <a href="mailto:juanjose.perez@email.com" class="btn btn--outline">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        Contacto
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="hero__scroll-hint">
+            <span>Scroll</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </header>
+
+    <!-- ===== MAIN ===== -->
+    <main class="main">
+        <div class="container">
+            <div class="grid">
+
+                <!-- COLUMNA IZQUIERDA -->
+                <aside class="sidebar">
+
+                    <!-- Sobre mí -->
+                    <div class="card card--about reveal">
+                        <div class="card__icon">👨‍💻</div>
+                        <h2 class="card__title">Sobre mí</h2>
+                        <p>Desarrollador backend apasionado por la arquitectura de software robusta y escalable.
+                           Estudio Ingeniería de Software en la <strong>Universidad Cooperativa de Colombia</strong>.
+                           Me especializo en construir APIs, servicios REST y sistemas de alta disponibilidad
+                           usando Java, PHP y Python.</p>
+                    </div>
+
+                    <!-- Contacto -->
+                    <div class="card reveal">
+                        <h2 class="card__title">Contacto</h2>
+                        <ul class="contact-list">
+                            <li>
+                                <span class="contact-icon">📍</span>
+                                <span>Colombia</span>
+                            </li>
+                            <li>
+                                <span class="contact-icon">📧</span>
+                                <a href="mailto:juanjose.perez@email.com">juanjose.perez@email.com</a>
+                            </li>
+                            <li>
+                                <span class="contact-icon">🐙</span>
+                                <a href="https://github.com/JuanJoseP-B" target="_blank">github.com/JuanJoseP-B</a>
+                            </li>
+                            <li>
+                                <span class="contact-icon">🎓</span>
+                                <span>Universidad Cooperativa de Colombia</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Habilidades técnicas -->
+                    <div class="card reveal">
+                        <h2 class="card__title">Stack Técnico</h2>
+                        <div class="skills">
+                            <div class="skill">
+                                <div class="skill__header">
+                                    <span class="skill__name">Java / Spring Boot</span>
+                                    <span class="skill__pct">88%</span>
+                                </div>
+                                <div class="skill__bar"><div class="skill__fill" data-width="88"></div></div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill__header">
+                                    <span class="skill__name">PHP</span>
+                                    <span class="skill__pct">80%</span>
+                                </div>
+                                <div class="skill__bar"><div class="skill__fill" data-width="80"></div></div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill__header">
+                                    <span class="skill__name">Python</span>
+                                    <span class="skill__pct">82%</span>
+                                </div>
+                                <div class="skill__bar"><div class="skill__fill" data-width="82"></div></div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill__header">
+                                    <span class="skill__name">SQL / Bases de datos</span>
+                                    <span class="skill__pct">75%</span>
+                                </div>
+                                <div class="skill__bar"><div class="skill__fill" data-width="75"></div></div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill__header">
+                                    <span class="skill__name">Git / GitHub</span>
+                                    <span class="skill__pct">85%</span>
+                                </div>
+                                <div class="skill__bar"><div class="skill__fill" data-width="85"></div></div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill__header">
+                                    <span class="skill__name">REST APIs</span>
+                                    <span class="skill__pct">83%</span>
+                                </div>
+                                <div class="skill__bar"><div class="skill__fill" data-width="83"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Habilidades blandas -->
+                    <div class="card reveal">
+                        <h2 class="card__title">Habilidades Blandas</h2>
+                        <div class="tags">
+                            <span class="tag">Trabajo en equipo</span>
+                            <span class="tag">Resolución de problemas</span>
+                            <span class="tag">Aprendizaje continuo</span>
+                            <span class="tag">Comunicación</span>
+                            <span class="tag">Disciplina</span>
+                        </div>
+                    </div>
+
+                </aside>
+
+                <!-- COLUMNA DERECHA -->
+                <section class="content">
+
+                    <!-- Formación académica -->
+                    <div class="card reveal">
+                        <h2 class="card__title section-icon">🎓 Formación Académica</h2>
+                        <div class="timeline">
+                            <div class="timeline__item">
+                                <div class="timeline__marker"></div>
+                                <div class="timeline__body">
+                                    <div class="timeline__head">
+                                        <h3>Ingeniería de Software</h3>
+                                        <span class="badge badge--active">En curso</span>
+                                    </div>
+                                    <p class="timeline__org">Universidad Cooperativa de Colombia</p>
+                                    <p class="timeline__period">2022 — Presente</p>
+                                    <p class="timeline__desc">Formación integral en diseño, desarrollo y gestión de software. Énfasis en arquitectura backend, bases de datos y metodologías ágiles.</p>
+                                </div>
+                            </div>
+                            <div class="timeline__item">
+                                <div class="timeline__marker"></div>
+                                <div class="timeline__body">
+                                    <div class="timeline__head">
+                                        <h3>Bachiller Académico</h3>
+                                        <span class="badge">Graduado</span>
+                                    </div>
+                                    <p class="timeline__org">Institución Educativa</p>
+                                    <p class="timeline__period">Hasta 2021</p>
+                                    <p class="timeline__desc">Énfasis en matemáticas y ciencias exactas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tecnologías -->
+                    <div class="card reveal">
+                        <h2 class="card__title section-icon">⚙️ Tecnologías</h2>
+                        <div class="tech-grid">
+                            <div class="tech-item">
+                                <span class="tech-icon">☕</span>
+                                <span>Java</span>
+                            </div>
+                            <div class="tech-item">
+                                <span class="tech-icon">🌱</span>
+                                <span>Spring Boot</span>
+                            </div>
+                            <div class="tech-item">
+                                <span class="tech-icon">🐘</span>
+                                <span>PHP</span>
+                            </div>
+                            <div class="tech-item">
+                                <span class="tech-icon">🐍</span>
+                                <span>Python</span>
+                            </div>
+                            <div class="tech-item">
+                                <span class="tech-icon">🗄️</span>
+                                <span>MySQL</span>
+                            </div>
+                            <div class="tech-item">
+                                <span class="tech-icon">🐘</span>
+                                <span>PostgreSQL</span>
+                            </div>
+                            <div class="tech-item">
+                                <span class="tech-icon">🔀</span>
+                                <span>Git</span>
+                            </div>
+                            <div class="tech-item">
+                                <span class="tech-icon">🐙</span>
+                                <span>GitHub</span>
+                            </div>
+                            <div class="tech-item">
+                                <span class="tech-icon">🔌</span>
+                                <span>REST APIs</span>
+                            </div>
+                            <div class="tech-item">
+                                <span class="tech-icon">🐳</span>
+                                <span>Docker</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyectos -->
+                    <div class="card reveal">
+                        <h2 class="card__title section-icon">🚀 Proyectos Académicos</h2>
+                        <div class="projects">
+                            <div class="project-card">
+                                <div class="project-card__header">
+                                    <h3>API REST con Spring Boot</h3>
+                                    <div class="project-card__links">
+                                        <a href="https://github.com/JuanJoseP-B" target="_blank" class="project-link">Ver repo →</a>
+                                    </div>
+                                </div>
+                                <p>Diseño e implementación de una API REST completa con autenticación JWT, manejo de roles y conexión a base de datos PostgreSQL.</p>
+                                <div class="project-card__tech">
+                                    <span class="tech-tag">Java</span>
+                                    <span class="tech-tag">Spring Boot</span>
+                                    <span class="tech-tag">PostgreSQL</span>
+                                    <span class="tech-tag">JWT</span>
+                                </div>
+                            </div>
+                            <div class="project-card">
+                                <div class="project-card__header">
+                                    <h3>Sistema Web en PHP</h3>
+                                    <div class="project-card__links">
+                                        <a href="https://github.com/JuanJoseP-B" target="_blank" class="project-link">Ver repo →</a>
+                                    </div>
+                                </div>
+                                <p>Aplicación web de gestión con PHP puro aplicando patrón MVC, CRUD completo y autenticación de usuarios.</p>
+                                <div class="project-card__tech">
+                                    <span class="tech-tag">PHP</span>
+                                    <span class="tech-tag">MySQL</span>
+                                    <span class="tech-tag">HTML/CSS</span>
+                                    <span class="tech-tag">MVC</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Datos personales -->
+                    <div class="card reveal">
+                        <h2 class="card__title section-icon">📋 Datos Personales</h2>
+                        <div class="info-grid">
+                            <div class="info-item">
+                                <span class="info-label">Nombre completo</span>
+                                <span class="info-value">Juan José Pérez Bravo</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Rol</span>
+                                <span class="info-value">Backend Developer</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Universidad</span>
+                                <span class="info-value">Universidad Cooperativa de Colombia</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">GitHub</span>
+                                <span class="info-value"><a href="https://github.com/JuanJoseP-B" target="_blank">JuanJoseP-B</a></span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Idiomas</span>
+                                <span class="info-value">Español (nativo), Inglés (técnico)</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Disponibilidad</span>
+                                <span class="info-value">Prácticas / Tiempo parcial</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 Juan José Pérez Bravo · Ingeniería de Software · Universidad Cooperativa de Colombia</p>
+    </footer>
+
+</div>
+
+<script src="{% static 'js/dev1/main.js' %}"></script>
+</body>
+</html>
